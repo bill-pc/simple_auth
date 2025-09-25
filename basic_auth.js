@@ -14,6 +14,7 @@ function basicAuth(req, res, next) {
     return res.status(401).send("Authentication required.");
   }
 
+
   // Extract base64 encoded part
   const base64Credentials = authHeader.split(" ")[1];
   const credentials = Buffer.from(base64Credentials, "base64").toString("ascii");
