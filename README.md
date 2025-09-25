@@ -6,6 +6,7 @@
 
 ![Login với Postman](./public/login1.png)
 ![Login với Postman](./public/login2.png)
+Ảnh cookie trong Postman:
 ![cookie với Postman](./public/cookie1.png)
 
 Ảnh cookie trong MongoDB:  
